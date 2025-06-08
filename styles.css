@@ -1,1 +1,41 @@
 /*  your css code here. If applicable */
+* {
+	padding:0px;
+	margin:0px;
+	box-sizing:border-box;
+}
+.hero {
+	width:100vw;
+	
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	
+}
+
+img {
+	width:70%;
+	object-fit:cover;
+}
+
+.hero_section {
+	text-align:center;
+	display:flex;
+	flex-direction:column;
+	gap:20px;
+	justify-items:flex-start;
+	justify-content:center;
+	align-items:center;
+	width:30%;
+	padding:10px
+}
+
+.hero_section > a {
+	text-decoration:none;
+	background-color:red;
+	padding:5px;
+	width:100px;
+	color:white;
+	border-radius:5px;
+	font-weight:70%;
+}
